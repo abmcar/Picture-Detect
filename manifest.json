@@ -1,0 +1,19 @@
+{
+    "name": "PictureDetect",
+    "description": "扫码识图二合一!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "notifications",
+        "tabCapture",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
